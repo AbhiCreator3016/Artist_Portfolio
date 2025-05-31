@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import ArtistImg from '../data/Images/ArtistImage.png'
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
         <img  
           className="w-full h-full object-cover" 
           alt="Artist painting in a sunlit studio with canvas and brushes"
-         src="https://images.unsplash.com/photo-1685390973541-edb43c31d307" />
+         src={ArtistImg} />
         <div className="hero-overlay"></div>
       </div>
       
