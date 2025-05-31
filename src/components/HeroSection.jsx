@@ -92,7 +92,7 @@ const HeroSection = () => {
           alt="Artist painting in a sunlit studio with canvas and brushes"
          src={ArtistImg} />
         <h1 className='text-red-400 absolute inset-0 z-21 text-4xl font-bold mb-4'>
-          <span>Hello</span>
+          
         </h1>
       </div>
       <motion.div 
