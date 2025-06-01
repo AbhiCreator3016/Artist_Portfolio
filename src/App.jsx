@@ -1,20 +1,19 @@
-
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Toaster } from '@/components/ui/toaster';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import Home from '@/pages/Home';
-import About from '@/pages/About';
-import Exhibitions from '@/pages/Exhibitions';
-import Gallery from '@/pages/Gallery';
-import Contact from '@/pages/Contact';
-import ArtworkDetail from '@/pages/ArtworkDetail';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Toaster } from "@/components/ui/toaster";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Home from "@/pages/Home";
+import About from "@/pages/About";
+import Exhibitions from "@/pages/Exhibitions";
+import Gallery from "@/pages/Gallery";
+import Contact from "@/pages/Contact";
+import ArtworkDetail from "@/pages/ArtworkDetail";
 
 function App() {
   return (
     <Router>
-      <div className="flex min-h-screen flex-col">
+      <div className="w-full flex min-h-screen flex-col bg-neutral-400">
         <Navbar />
         <main className="flex-1">
           <Routes>
